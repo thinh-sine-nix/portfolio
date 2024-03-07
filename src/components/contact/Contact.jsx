@@ -30,19 +30,19 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>thinhnho98@gmail.com</h5>
-            <a href="mailto:ititiu19228@student.hcmiu.edu.vn" target="_blank" rel="noreferrer">Send a message</a>
+            <a href="mailto:thinhnho98@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article class="contact__option">
             <RiMessengerLine className='contact__option-icon' />
             <h4>Messenger</h4>
             <h5>Dinh Thinh</h5>
-            <a href="https://m.me/" target="_blank" rel="noreferrer">Send a message</a>
+            <a href="https://m.me/phuthinh69" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article class="contact__option">
             <AiOutlineInstagram className='contact__option-icon' />
             <h4>Instagram</h4>
             <h5>Dinh Thinh</h5>
-            <a href="https://instagram.com/" target="_blank" rel="noreferrer">Send a message</a>
+            <a href="https://instagram.com/t_hinh_nho" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

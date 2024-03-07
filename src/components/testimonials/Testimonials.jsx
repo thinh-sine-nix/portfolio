@@ -1,6 +1,6 @@
 import React from 'react'
 import './testimonials.css'
-import AVATAR1 from '../../assets/avatar1.jfif'
+import AVATAR1 from '../../assets/me.jpg'
 
 import { Pagination} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -13,21 +13,21 @@ const data = [
     name: 'Tina Snow',
     review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
   },
-  {
-    avatar: AVATAR1,
-    name: 'Shatta Wale',
-    review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
-  },
-  {
-    avatar: AVATAR1,
-    name: 'Kwame Despite',
-    review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
-  },
-  {
-    avatar: AVATAR1,
-    name: 'Nana Ama McBrown',
-    review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
-  },
+  // {
+  //   avatar: AVATAR1,
+  //   name: 'Shatta Wale',
+  //   review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+  // },
+  // {
+  //   avatar: AVATAR1,
+  //   name: 'Kwame Despite',
+  //   review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+  // },
+  // {
+  //   avatar: AVATAR1,
+  //   name: 'Nana Ama McBrown',
+  //   review: 'Modi alias animi dolorem aliquam ea eum beatae maiores, consectetur praesentium quibusdam, commodi velit porro blanditiis consequatur qui molestiae. Dolorem, perspiciatis aspernatur labore distinctio ratione delectus voluptatem dolores deserunt explicabo nostrum ducimus quasi?'
+  // },
 ]
 
 const Testimonials = () => {

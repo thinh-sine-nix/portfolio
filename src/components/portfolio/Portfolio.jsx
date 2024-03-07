@@ -1,55 +1,32 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jfif'
-import IMG2 from '../../assets/portfolio2.jfif'
-import IMG3 from '../../assets/portfolio3.jfif'
-import IMG4 from '../../assets/portfolio4.jfif'
-import IMG5 from '../../assets/portfolio5.jfif'
-import IMG6 from '../../assets/portfolio6.jfif'
+import IMG1 from '../../assets/band.jpg'
+import IMG2 from '../../assets/tictactoe.jpg'
+import IMG3 from '../../assets/me.jpg'
+
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
+    title: 'Band music',
     github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+    demo: 'https://bandmusic.vercel.app/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Charts templates & infographics in Figma',
+    title: 'Tic Tac Toe Game',
     github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    demo: 'https://tac-tic-toe.vercel.app/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Figma dashboard UI kit for data design web apps',
+    title: 'Introduction',
     github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Maintaining tasks and tracking progress',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
- },
- {
-    id: 5,
-    image: IMG5,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma'
- },
- {
-    id: 6,
-    image: IMG6,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma'
- }
+    demo: 'https://thinhnho98.vercel.app/'
+  }
 ]
 
 const Portfolio = () => {
