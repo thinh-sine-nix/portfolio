@@ -10,21 +10,21 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Band music',
-    github: 'https://github.com',
+    github: 'https://github.com/thinh-sine-nix/band-music',
     demo: 'https://bandmusic.vercel.app/'
   },
   {
     id: 2,
     image: IMG2,
     title: 'Tic Tac Toe Game',
-    github: 'https://github.com',
+    github: 'https://github.com/thinh-sine-nix/Tac-Tic-Toe',
     demo: 'https://tac-tic-toe.vercel.app/'
   },
   {
     id: 3,
     image: IMG3,
     title: 'Introduction',
-    github: 'https://github.com',
+    github: 'https://github.com/thinh-sine-nix/portfolio',
     demo: 'https://thinhnho98.vercel.app/'
   }
 ]
