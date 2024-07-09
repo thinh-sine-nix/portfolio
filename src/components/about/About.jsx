@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me_about.jfif'
+import ME from '../../assets/me.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -35,7 +35,7 @@ const About = () => {
               <small>5+ Completed</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam qui voluptatibus totam dicta in perspiciatis quidem quaerat architecto mollitia, vitae officiis ratione itaque quibusdam explicabo voluptas sed, adipisci est porro.</p>
+          <p></p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
